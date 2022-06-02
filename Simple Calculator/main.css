@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 400px;
+    margin: 10vh 0 auto 35%;
+     
+}
+#display {
+    text-align: right;
+    height: 80px;
+    line-height: 80px;
+    padding: 15px 8px;
+    font-size: 25px;
+    background-color: #999;
+    
+}
+.buttons{
+    display: grid;
+    border: 1px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(152, 140, 140);
+}
+#equals {
+    background-color: rgb(61, 205, 221);
+    border-color: #999;
+
+}
+
+.con-darkmode {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+svg {
+    cursor: pointer;
+}
